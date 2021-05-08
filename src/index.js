@@ -1,11 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./custom.scss";
+import "./css/custom.scss";
 import App from "./App";
+import Sidebar from "./components/Sidebar";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div id="wrapper">
+      <Sidebar />
+      <App />
+    </div>
   </React.StrictMode>,
   document.getElementById("root")
 );
