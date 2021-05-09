@@ -1,0 +1,9 @@
+@import url(~bootstrap/dist/css/bootstrap.css);
+#wrapper {
+  display: flex; }
+
+#sidebar {
+  width: 250px; }
+
+#sidebar nav {
+  padding: 15px; }

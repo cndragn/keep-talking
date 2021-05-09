@@ -1,9 +1,12 @@
-.wrapper {
-  flex: auto;
+#wrapper {
+  display: flex;
 }
 
 #sidebar {
   width: 250px;
+  nav {
+    padding: 15px;
+  }
 }
 
 @import "~bootstrap/dist/css/bootstrap.css";
